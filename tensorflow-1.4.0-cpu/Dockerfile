@@ -2,8 +2,6 @@ FROM tensorflow/tensorflow:1.4.0-py3
 
 LABEL maintainer="Emmanuel<emmanuelm@gmail.com>"
 
-USER root
-
 # Install dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
